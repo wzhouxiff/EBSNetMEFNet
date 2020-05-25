@@ -1,0 +1,11 @@
+Day model:
+	Policy_weight: /data1/models/NightSight/FD_hdrnobn_ex_day2020_step_flr5/policy_FD_hdr_ex_day2020_step_flr5_checkpoint_59.path.tar
+	Fusion_weight: /data1/models/NightSight/FD_hdrnobn_ex_day2020_step_flr5/fusion_FD_hdrnobn_ex_day2020_step_flr5_checkpoint_109.path.tar
+	map: /data1/output/rl_exposure_fusion_0919/fusion_hdrbobn_ex_day2020_lr3_frame3_mc_psnr_resize512_NNR_RGB_dn/999/day/map.txt
+
+night model:
+	Policy_weight: /data1/models/NightSight/FD_hdrnobn_ex_night_step_flr5/policy_FD_hdr_ex_661_frame3_psnr_resize512_NNR_RGB_lrp6lrf3_p39_iter_printT_checkpoint_259.path.tar
+	Fusion_weight: /data1/output/rl_exposure_fusion_0919/FD_hdr_ex_661_frame3_psnr_resize512_NNR_RGB_lrp6lrf3_p39_iter_printT/	fusion_FD_hdr_ex_661_frame3_psnr_resize512_NNR_RGB_lrp6lrf3_p39_iter_printT_checkpoint_269.path.tar
+	map: /data1/output/rl_exposure_fusion_0919/fusion_hdr_ex_661_lr3_frame3_mc_psnr_resize512_NNR_149/149/map.txt
+
+test_list: /data1/data/NightSight/gffList/test_new.txt
