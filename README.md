@@ -15,24 +15,24 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.
 
 3. Update scripts/test.sh with your path.
                 
-                usage: test.py [-h] [--data-type] [--results PATH] [--score-path PATH]
-                DIR DIR
+        usage: test.py [-h] [--data-type] [--results PATH] [--score-path PATH]
+        DIR DIR
 
-                PyTorch EBSNetMEFNet
+        PyTorch EBSNetMEFNet
 
-                positional arguments:
-                DIR                       path to dataset
-                DIR                       path to models
+        positional arguments:
+        DIR                       path to dataset
+        DIR                       path to models
 
-                optional arguments:
-                -h, --help                show this help message and exit
-                --data-type               'night' or 'day'
-                --results                 path to save results
-                --score-path              path to save psnr and ssim
+        optional arguments:
+        -h, --help                show this help message and exit
+        --data-type               'night' or 'day'
+        --results                 path to save results
+        --score-path              path to save psnr and ssim
                 
 4. Run scripts/test.sh.
 
-                sh scripts/test.sh
+        sh scripts/test.sh
 
 ## EBSNet v.s. MEFNet
 
