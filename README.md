@@ -55,7 +55,7 @@ This two networks can be trained jointly.
     
 ## Results
 
-![results]("images/results/gif")
+![results]("images/results.gif")
 
 
 ## Citation
