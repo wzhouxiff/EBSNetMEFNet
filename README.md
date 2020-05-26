@@ -8,9 +8,9 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.
 
 1. Clone this github repo
 
-`<git clone https://github.com/wzhouxiff/EBSNetMEFNet.git
+`<git clone https://github.com/wzhouxiff/EBSNetMEFNet.git>`
     
-    cd EBSNetMEFNet>`
+`<cd EBSNetMEFNet>`
     
 2. Download models and testset from [Baidu Drive](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) (extraction code: jqfp).
 
