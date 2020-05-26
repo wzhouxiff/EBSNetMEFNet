@@ -1,12 +1,12 @@
 # EBSNetMEFNet
 
-This repo includes the source code of the paper: "[Learning a Flexible Agent for Exposure Bracketing Selection](https://arxiv.org/abs/1807.00504)" (CVPR 2020) by Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren.
+This repo includes the source code of the paper: "[Learning a Reinforced Agent for Flexible Exposure Bracketing Selection](CVPR 2020) by Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren.
 
 ## Environment
 
 The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.1 with Python 2.7.
 
-## Dataset
+<!-- ## Dataset
 
 
 ## Models && object boxes && adjacency matrices
@@ -86,4 +86,5 @@ Ours  | **62.3**
     }
 
 ## Contributing
-For any questions, feel free to open an issue or contact us (zhouzi1212@gmail.com & tianshuichen@gmail.com)
+For any questions, feel free to open an issue or contact us (zhouzi1212@gmail.com)
+ -->
