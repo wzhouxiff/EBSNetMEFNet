@@ -6,9 +6,26 @@ This repo includes the source code of the paper: "[Learning a Reinforced Agent f
 
 The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.1 with Python 2.7.
 
+## EBSNet v.s. MEFNet
+
+**EBSNet** - **E**xposure **B**racketing **S**election **N**etwork: Used for exposure bracketing selection by analyzing both the illumination and semantic information of an auto-exposure preview image and Learnt via RL which rewarded by **MEFNet**.
+
+**MEFNet** - **M**ulti-***E*xpusre **F**usion **N**etwork: Used for fusing the selected exposure bracketing predicted by **EBSNet**.
+
+This two networks can be trained jointly.
+
+<img src="images/framework.jpg">
+
+## Dataset
+
+* x: AE image
+* z<sub>0</sub> ~ z<sub>9</sub>: exposure sequence
+* zz<sub>H</sub>: generated HDR image
+* [testset]（https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) -  extraction code: jqfp
+
+<img src="images/samples.jpg">
+
 <!-- ## Dataset
-
-
 ## Models && object boxes && adjacency matrices
 Models, object boxes and ajacency matrices are in [HERE](https://pan.baidu.com/s/13tvWT5FmfvIFaBRE9nq1WQ).
 
