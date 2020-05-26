@@ -11,7 +11,28 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.
         git clone https://github.com/wzhouxiff/EBSNetMEFNet.git
         cd EBSNetMEFNet
     
-2. Download models and testset from [Baidu Drive](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) (extraction code: jqfp).
+2. Download models and testset from [Baidu Drive](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) (extraction code: jqfp). Models are in folder *checkpoints* which testset is in folder *testset*.
+
+3. Update scripts/test.sh with your path.
+                
+                usage: test.py [-h] [--data-type] [--results PATH] [--score-path PATH]
+                DIR DIR
+
+                PyTorch EBSNetMEFNet
+
+                positional arguments:
+                DIR                       path to dataset
+                DIR                       path to models
+
+                optional arguments:
+                -h, --help                show this help message and exit
+                --data-type               'night' or 'day'
+                --results                 path to save results
+                --score-path              path to save psnr and ssim
+                
+4. Run scripts/test.sh.
+
+                sh scripts/test.sh
 
 ## EBSNet v.s. MEFNet
 
