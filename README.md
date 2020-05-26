@@ -2,9 +2,16 @@
 
 This repo includes the source code of the paper: "[Learning a Reinforced Agent for Flexible Exposure Bracketing Selection](CVPR 2020) by Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren.
 
-## Environment
+## Quick Test
 
 The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.1 with Python 2.7.
+
+1. Clone this github repo
+
+    git clone https://github.com/wzhouxiff/EBSNetMEFNet.git
+    cd EBSNetMEFNet
+    
+2. Download models and testset from [Baidu Drive](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) (extraction code: jqfp).
 
 ## EBSNet v.s. MEFNet
 
