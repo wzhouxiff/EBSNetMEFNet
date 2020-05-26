@@ -42,7 +42,7 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.
 
 This two networks can be trained jointly.
 
-<img src="images/framework.jpg">
+<img src="images/framework.png">
 
 ## Dataset
 
@@ -51,7 +51,7 @@ This two networks can be trained jointly.
 * zz<sub>H</sub>: generated HDR image
 * [testset](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) -  extraction code: jqfp
 
-<img src="images/samples.jpg">
+<img src="images/samples.png">
     
 ## Results
 

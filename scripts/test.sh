@@ -1,16 +1,17 @@
 #/bin/bash
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH
 
-tag='release_test'
-resultpath='/data1/output/rl_exposure_fusion_0919/'$tag'/'
+resultpath="YOU PATH FOR SAVEING RESULTS"
+
 if [ ! -d $resultpath ];then
 	mkdir -p $resultpath
 fi
 
+data_type="night" # or "day"
+
 python -u test.py\
-	/data1/data/NightSight/testset/ \
-	checkpoints/ \
-	--data-type 'night' \
+	"YOU TEST PATH" \
+	"YOU CHECKPOINTS PATH" \
+	--data-type $data_type \
 	--results $resultpath \
-	--score-path $resultpath'score_syn.txt' \
-	2>&1 | tee $resultpath'/test.log'
+	--score-path $resultpath'score_syn.txt'

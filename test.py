@@ -28,7 +28,7 @@ import random
 from torch.nn.functional import pad as tensor_pad
 
 def arg_parse():
-	parser = argparse.ArgumentParser(description='PyTorch KPN')
+	parser = argparse.ArgumentParser(description='PyTorch EBSNetMEFNet')
 	parser.add_argument('data', metavar='DIR', help='path to dataset')
 	parser.add_argument('ckpt', metavar='DIR', help='path to checkpoints and list')
 	parser.add_argument('--data-type', default='none', type=str,
