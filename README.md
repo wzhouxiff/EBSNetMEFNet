@@ -21,7 +21,7 @@ This two networks can be trained jointly.
 * x: AE image
 * z<sub>0</sub> ~ z<sub>9</sub>: exposure sequence
 * zz<sub>H</sub>: generated HDR image
-* [testset]（https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) -  extraction code: jqfp
+* [testset](https://pan.baidu.com/s/1o39r3Mmj523IJT6e7YcFFQ) -  extraction code: jqfp
 
 <img src="images/samples.jpg">
 
