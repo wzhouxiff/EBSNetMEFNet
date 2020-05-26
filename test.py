@@ -19,9 +19,7 @@ from PIL import Image
 import glob
 
 # from dataset import dataset
-from models import decision, hdrnet, hdrnet_nobn
-from logger import Logger
-import utils
+from models import decision, hdrnet
 from loss import SSIM
 import pdb
 import random
