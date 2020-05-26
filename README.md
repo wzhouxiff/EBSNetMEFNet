@@ -55,7 +55,11 @@ This two networks can be trained jointly.
     
 ## Results
 
+<<<<<<< HEAD
 ![results]("images/results.gif")
+=======
+<img src="images/results.gif">
+>>>>>>> 5ed0f9e69a3d5995488a7ae313558b82a0b5efc6
 
 
 ## Citation
