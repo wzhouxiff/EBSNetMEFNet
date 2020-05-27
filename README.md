@@ -38,7 +38,7 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS) and based on Pytorch 0.4.1
 
 **EBSNet** - **E**xposure **B**racketing **S**election **N**etwork: Used for exposure bracketing selection by analyzing both the illumination and semantic information of an auto-exposure preview image and Learnt via RL which rewarded by **MEFNet**.
 
-**MEFNet** - **M**ulti-**E**xpusre **F**usion **N**etwork: Used for fusing the selected exposure bracketing predicted by **EBSNet**.
+**MEFNet** - **M**ulti-**E**xposure **F**usion **N**etwork: Used for fusing the selected exposure bracketing predicted by **EBSNet**.
 
 These two networks can be trained jointly.
 
