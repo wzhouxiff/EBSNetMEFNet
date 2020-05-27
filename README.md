@@ -1,6 +1,6 @@
 # EBSNetMEFNet
 
-This repo includes the source code of the paper: "[Learning a Reinforced Agent for Flexible Exposure Bracketing Selection](CVPR 2020) by Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren.
+This repo includes the source code of the paper: [Learning a Reinforced Agent for Flexible Exposure Bracketing Selection](http://arxiv.org/abs/2005.12536) (CVPR 2020) by Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren.
 
 ## Quick Test
 
@@ -59,11 +59,11 @@ This two networks can be trained jointly.
 
 
 ## Citation
-    @inproceedings{Wang2018Deep,
-        title={Deep Reasoning with Knowledge Graph for Social Relationship Understanding},
-        author={Zhouxia Wang, Tianshui Chen, Jimmy Ren, Weihao Yu, Hui Cheng, Liang Lin},
-        booktitle={International Joint Conference on Artificial Intelligence},
-        year={2018},
+    @inproceedings{Wang2020Learning,
+        title={Learning a Reinforced Agent for Flexible Exposure Bracketing Selection},
+        author={Zhouxia Wang, Jiawei Zhang, Mude Lin, Jiong Wang, Ping Luo, Jimmy Ren},
+        booktitle={CVPR},
+        year={2020},
     }
 
 ## Contributing
