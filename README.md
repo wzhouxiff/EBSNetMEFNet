@@ -4,7 +4,7 @@ This repo includes the source code of the paper: [Learning a Reinforced Agent fo
 
 ## Quick Test
 
-The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.1 with Python 2.7.
+The code is tested on 64 bit Linux (Ubuntu 14.04 LTS) and based on Pytorch 0.4.1 with Python 2.7.
 
 1. Clone this github repo
 
@@ -40,7 +40,7 @@ The code is tested on 64 bit Linux (Ubuntu 14.04 LTS), and besed on Pytorch 0.4.
 
 **MEFNet** - **M**ulti-**E**xpusre **F**usion **N**etwork: Used for fusing the selected exposure bracketing predicted by **EBSNet**.
 
-This two networks can be trained jointly.
+These two networks can be trained jointly.
 
 <img src="images/framework.png">
 
